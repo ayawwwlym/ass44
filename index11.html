@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="overlay">
+          <h1 class="header-title">Qalyn Mal</h1>
+        </div>
+      </header>
+	<form action="" method="post" onsubmit="return false">
+		<div class="card">
+            <p>Groom's name <input id="name" type="text" name="name"></p>
+            <p>Starting bid <Br> <input id="bid" type="number" name="st"></p>
+        </div>
+
+			<section class="content">
+		<div class="card">
+			<img src="education.jpg" class="card-image" height="260">
+			<h3 class="card-title">Education</h3>
+			<select id="education">
+		      	<option value="1">Undergraduate degree</option>
+		      	<option value="2">College degree</option>
+		      	<option value="3">High school degree</option>
+		      	<option value="4">Middle school degree</option>
+      		</select>
+		</div>
+		<div class="card no-right-margin">
+			<img src="https://english-skype.net/wp-content/uploads/2019/08/large-multi-gen-travel-1280x640.jpg" class="card-image" height="270">
+			<h3 class="card-title">Family net worth</h3> 
+
+      	<select id="family">
+	        <option value="1">More than 100,000$</option>
+	        <option value="2">Between 50,000$ and 100,000$</option>
+	        <option value="3">Less than 50,000$</option>
+      	</select>
+	</div>
+	<div class="card">
+        <img src="https://lumen5.com/learn/wp-content/uploads/2019/06/marketing-skills.jpg" class="card-image" height="260">
+        <h3 class="card-title">Skills</h3>
+        <form class="card-text">
+         <p class="card-text"><input type="checkbox" id="domb">Playing on dombra<Br>
+          <input type="checkbox" id="cook">Good cook<Br> 
+          <input type="checkbox" id="easy">Easygoing character<Br>
+                      <input type="checkbox" id="sing">Sings well</p>
+            </form>
+      </div>
+
+<div class="card no-right-margin">
+	<img src="age.png" class="card-image">
+	<h3 class="card-title">Age</h3>
+	<form class="card-text">
+		<p><input type="radio" id="jkjk">Between 18-23<Br>
+			<input type="radio" id="jkjk">Between 24-27<Br>
+			<input type="radio" name="28">28+</p> 
+		</form>
+    </div>
+
+	<div class="card">
+		<img src="https://images.theconversation.com/files/107953/original/image-20160112-6964-cxk0kg.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" class="card-image" height="260">
+		<h3 class="card-title">Reputation</h3>
+		<form class="card-text">
+			<p><input type="checkbox" id="gossip">Gossips about his/her parent's attitude<Br>
+				<input type="checkbox" id="char">Gossips about his/her character<Br> 
+				<input type="checkbox" id="per">General gossips around his/her person</p>
+			   </form>
+			 </div>
+			</section>
+            <div class="card">
+      	<p>
+      		Love letter <br>
+      		<textarea name="love" cols="30" rows="10" maxlength="500"></textarea>
+      	</p>
+            </div>
+		  <div class="btn">
+			<button id="sub">submit</button> <br><br><br>
+			<h1 id="res">Result</h1>
+		  </div>
+          <script src="index11.js"></script>
+</body>
+</html>
